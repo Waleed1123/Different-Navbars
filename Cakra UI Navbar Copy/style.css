@@ -48,7 +48,7 @@ li button:hover{
 
 }
 li:hover{
-    color: black;
+    color: #065520;
     transition: all 0.5s;
     cursor: pointer;
 
