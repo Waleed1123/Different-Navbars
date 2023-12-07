@@ -31,10 +31,10 @@ li{
 li a{
     color: white;
     text-decoration: none;
+    transition: all 0.5s;
 }
 li a:hover{
     color: orangered;
-    transition: all 0.5s;
 }
 
 .logo{
@@ -44,9 +44,12 @@ li a:hover{
     text-decoration: none;
     color: white;
 }
+.logo-div p{
+    transition: all 0.5s;
+
+}
 .logo-div p:hover{
     color: orangered;
-    transition: all 0.5s;
 }
 .logo-div span:hover{
     color: white;
@@ -55,8 +58,8 @@ li a:hover{
 .logo span{
     color: orangered;
     font-weight: bold;
+    transition: all 0.6s;
 }
 .logo:hover span{
     color: white;
-    transition: all 0.6s;
 }

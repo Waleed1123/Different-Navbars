@@ -25,7 +25,7 @@ ul.nav li{
 select, option{
     background-color: rgb(255, 68, 99);
     border: none;
-    padding: 10px 10px;
+    padding: 10px 13px;
     margin-left: 25px;
     color: white;
     border-radius: 10px;
@@ -39,9 +39,9 @@ option:hover{
 } 
 .nav li a{
     color: white;
+    transition: all 0.5s;
     text-decoration: none;
 }
 li a:hover{
     color: rgb(169, 45, 45);
-    transition: all 0.5s;
 }
